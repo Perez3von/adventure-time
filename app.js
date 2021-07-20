@@ -17,5 +17,6 @@ form.addEventListener('submit', e=>{
     const formData = new FormData(form);
     //console.log(formData.get('name'));
     setUser(formData);
+    window.location.replace('./map/index.html');
   
 });
