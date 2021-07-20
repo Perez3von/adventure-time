@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 
-import {  setUser } from "./storage.js";
+import { setUser } from './storage.js';
 
 // initialize state
 
@@ -13,9 +13,9 @@ const form = document.getElementById('form');
 
 form.addEventListener('submit', e=>{
 
-  e.preventDefault();
-  const formData = new FormData(form);
-  console.log(formData.get('name'));
-  setUser(formData);
+    e.preventDefault();
+    const formData = new FormData(form);
+    //console.log(formData.get('name'));
+    setUser(formData);
   
-})
+});

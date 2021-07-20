@@ -1,5 +1,5 @@
 export const USER = 'User';
-export const RACE = "Race";
+
 
 
 
