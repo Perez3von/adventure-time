@@ -1,11 +1,12 @@
 const monsters = {
+    
     id: 'monsters',
     title: 'A Den of Monsters',
     map: {
         top: '89%',
         left: '44%'
     },
-    image: 'monsters.jpg',
+    image: 'baron.jpg',
     description: `
         You enter the quest chamber only to be confronted by a hoard of
         monsters. And they look hungry. What do you do?
@@ -44,6 +45,7 @@ const monsters = {
 };
 
 const dragon = {
+    
     id: 'dragon',
     title: 'A HAIRY!!! Dragon',
     map: {
@@ -99,6 +101,7 @@ const dragon = {
 };
 
 const treasure = {
+    
     id: 'treasure',
     title: 'A Golden Treasure',
     map: {
@@ -106,7 +109,7 @@ const treasure = {
         left: '5%'
     },
     prerequisites: ['dragon', 'monsters'],
-    image: 'treasure-chests.png',
+    image: 'blue-buff.jpg',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `
