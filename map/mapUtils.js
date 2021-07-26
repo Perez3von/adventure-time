@@ -9,7 +9,7 @@ export function createLink(item, parent){
 
 }
 
-export function createSpan(item,parent){
+export function createSpan(item, parent){
 
     let complete = document.createElement('span');
     complete.style.color = 'white';
